@@ -1,0 +1,29 @@
+{
+  "name": "nodekl",
+  "version": "0.1.1",
+  "description": "nodejs kl tool box",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem ci -P 10 --launch node",
+    "mocha": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wowngasb/nodekl.git"
+  },
+  "keywords": [
+    "kl",
+    "toolbox",
+    "tiny"
+  ],
+  "author": "Kong Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wowngasb/nodekl/issues"
+  },
+  "homepage": "https://github.com/wowngasb/nodekl#readme",
+  "devDependencies": {
+    "testem": "^1.18.4",
+    "mocha": "^2.3.4"
+  }
+}
